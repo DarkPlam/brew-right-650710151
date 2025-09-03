@@ -5,7 +5,7 @@ on:
     paths:
       - "data_csv/**"
       - ".sql/transform.sql"
-      - ".github/workflows/duckdb-transform.yml"
+      - ".github/workflows/duckdb-transform.yaml"
   workflow_dispatch:  # manual trigger
   schedule:
     - cron: "0 2 * * *"  # 02:00 UTC = 09:00 Asia/Bangkok
